@@ -1,0 +1,11 @@
+{
+  "name": "CCC Preschool",
+  "image": "heroku/nodejs",
+  "addons": ["newrelic", "papertrail"],
+  "repository": "https://github.com/ajorme/ccc-preschool",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ]
+}
